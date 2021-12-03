@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    background-color: #329458;
+}
+
+.flex-app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.render-number {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 20px;
+    background-color: #64b683;
+    padding: 0 20px 0 20px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice-panel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 650px;
+    color: white;
+}
+
+.element-big {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(206, 177, 51);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: 600;
+    width: 48px;
+    height: 148px;
+    cursor: pointer;
+}
+
+.element-small {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(206, 177, 51);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: 600;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.choice-button {
+    border: 1px solid rgb(206, 177, 51);
+    color: rgb(206, 177, 51);
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    background-color: #329458;
+    width: 14.28%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.hud {
+    font-weight: bold;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hud-span {
+    margin: 10px;
+}
+
+.hud-input {
+    border-color: rgb(206, 177, 51);
+    background-color: #64b683;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.hud-input:hover {
+    border-color: #64b683;
+}
+
+.draw-button {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #64b683;
+    border-color: rgb(206, 177, 51);
+    width: 100%;
+    padding: 10px;
+}
+
+.draw-button:hover {
+    border-color: #64b683;
+}
+
+.bets-title {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.bets {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    margin: 10px;
+}
+
+.bet {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px;
+}
+
+.bet-span {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(206, 177, 51);
+}
+
+.bet-button {
+    background-color: #329458;
+    border: 0px;
+    cursor: pointer;
+    font-size: 15px;
+}
